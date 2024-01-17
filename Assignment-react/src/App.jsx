@@ -6,6 +6,7 @@ function App() {
   return (
   <>
     <FoodMenu/>
+    <br></br>
     <DownloadApp/>
   </>
   )
