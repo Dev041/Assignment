@@ -1,9 +1,13 @@
-import Download from "./download"
+import DownloadApp from "./pages/DownloadApp";
+import FoodMenu from "./pages/FoodMenu";
 
 function App() {
 
   return (
-    <Download/>
+  <>
+    <FoodMenu/>
+    <DownloadApp/>
+  </>
   )
 }
 
