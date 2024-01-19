@@ -130,7 +130,7 @@ const GetInTouch = () => {
 
 
         {/* Third Vertical Grid */}
-        <Grid item xs={2}>
+        <Grid item xs={4}>
         <Box 
           sx={{
             display: 'flex',
@@ -144,13 +144,13 @@ const GetInTouch = () => {
           }}
         >
               
-          <img src={social1} style={{ marginLeft: '20px' }} alt="social-1"/>
-          <img src={social2} style={{ marginLeft: '20px' }} alt="social-2"/>
-          <img src={social3} style={{ marginLeft: '20px' }} alt="social-3"/>
-          <Typography fontSize="0.6rem" sx={{ ml:2.5, mr: 2 }}>© Techverse World</Typography>
+          <img src={social1} style={{ marginLeft: '30px' }} alt="social-1"/>
+          <img src={social2} style={{ marginLeft: '30px' }} alt="social-2"/>
+          <img src={social3} style={{ marginLeft: '30px' }} alt="social-3"/>
+          <Typography fontSize="0.6rem" sx={{ ml: 3.5, mr: 2 }}>© Techverse World</Typography>
         </Box>
         </Grid>
-        <Grid item xs={2}></Grid>
+        {/* <Grid item xs={2}></Grid> */}
       </Grid>
     </Box>
   );
