@@ -63,7 +63,7 @@ const FoodMenu = () => {
       <Grid container justifyContent="center">
         <Grid item xs={8} container spacing={3}>
             <Grid item xs={12} sx={{ textAlign: 'center', mb: 0 }}>
-                <Typography variant="h5" color="#2E266F">
+                <Typography variant="h4" fontWeight={600} color="#2E266F">
                   Explore our Foods
                 </Typography>
             </Grid>

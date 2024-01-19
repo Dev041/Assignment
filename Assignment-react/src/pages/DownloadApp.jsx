@@ -25,30 +25,30 @@ const DownloadApp = () => {
             </Typography>
         </Box>
         <Grid item xs={7} sx={{ ml: 5.2, mt: 2 }}>
-        <Typography variant='body1' fontWeight="bold" sx={{color: '#707070'}}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-        </Typography>
+          <Typography variant='body1' fontWeight="bold" sx={{color: '#707070'}}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
+          </Typography>
         </Grid>
-        <Box sx={{ width: '30px',display: 'flex', flexDirection: 'row', ml: 3, mt: 2 }}>
+        <Box sx={{ width: '30px',display: 'flex', flexDirection: 'row',alignItems:"center", ml: 3, mt: 2 }}>
             <img src= {playstore} alt='app-download-android' />
             <img src= {appstore}  alt='app-download-apple'/>
         </Box>
       </Grid>
       <Grid item xs={6} style={{ position: 'relative' }}>
         <img
-          style={{ position: 'absolute', top: 0, left: 140, zIndex: 2, height: '700px', width: '400px' }}
+          style={{ position: 'absolute', top: 20, left: 130, zIndex: 3, height: '600px', width: '370px' }}
           src={appScreen}
           alt='app-screen'
         />
         <img
-          style={{ position: 'absolute', top: 230, left: 20, zIndex: 1, height: '400px' }}
+          style={{ position: 'absolute', top: 180, left: 20, zIndex: 2, height: '380px' }}
           src={cauliflower}
           alt='cauliflower'
         />
          <img
-          style={{ position: 'absolute', top: 115, left: 110, zIndex: 1, height: '300px' }}
+          style={{ position: 'absolute', top: 128, left: 110, zIndex: 1, height: '300px' }}
           src={dotsBg}
-          alt='cauliflower'
+          alt='dotsbg'
         />
       </Grid>
     <Grid item xs={1}></Grid>

@@ -1,13 +1,20 @@
 import DownloadApp from "./pages/DownloadApp";
 import FoodMenu from "./pages/FoodMenu";
+import AdvanceBooking from "./pages/AdvanceBooking";
+import GetInTouch from "./pages/GetInTouch";
+
 
 function App() {
 
   return (
   <>
-    <FoodMenu/>
+    <AdvanceBooking />
     <br></br>
-    <DownloadApp/>
+    <FoodMenu />
+    <br></br>
+    <br></br>
+    <DownloadApp /> 
+    <GetInTouch />
   </>
   )
 }
