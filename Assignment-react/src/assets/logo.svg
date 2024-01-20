@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="197.175" height="111.375" viewBox="0 0 197.175 111.375">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297.175" height="111.375" viewBox="0 0 297.175 111.375">
   <defs>
-    <filter id="Path_4714" x="0" y="0" width="197.175" height="111.375" filterUnits="userSpaceOnUse">
+    <filter id="Path_4714" x="0" y="0" width="297.175" height="111.375" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
