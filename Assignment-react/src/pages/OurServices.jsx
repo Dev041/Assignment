@@ -45,15 +45,14 @@ const DineIn = () => {
                         <Typography>Hi</Typography>
                     </Grid>
                     <Grid item xs={4}>
-                        <Box sx={{ display: 'flex', flexDirection: 'column' , justifyContent: 'center', alignItems: 'center', bgcolor: '#FAFAFA', width: '100%', height: '100%', mt: 2.5 }}>
-                            <img src={delivery} alt='free-deliver-image' width="160px" height= "130px" />
-                            <Typography sx={{ fontWeight: '600' ,fontSize:'1.3rem', color:"#2E266F", mt: 2 }} >free home deliver</Typography>
-                            <Typography sx={{ fontWeight: '600' ,fontSize:'1.3rem', color:"#2E266F"}} >at your door steps</Typography>
-                            <Typography sx={{ width: '170px', ml: '50%', mr:'50%', mb: 2, color: '#707070', fontWeight:'600' }}> Lorem ipsum dolor sit amet consectetur elit sit amet</Typography>
-                            <Box sx={{ display: 'flex', flexDirection: 'row'}}>
-
-                            <Box sx={{ width: '150px', height: '3px', background: '#3D7475', borderRadius: 4, mr: 0.5  }}> </Box>
-                            <Box sx={{ width: '20px', height: '3px', background: '#3D7475', borderRadius: 4  }}> </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', bgcolor: '#FAFAFA', width: '100%', height: '100%', mt: 2.5 }}>
+                            <img src={delivery} alt='free-deliver-image' width="160px" height="130px" />
+                            <Typography sx={{ fontWeight: '600', fontSize: '1.3rem', color: "#2E266F", mt: 2 }} >free home deliver</Typography>
+                            <Typography sx={{ fontWeight: '600', fontSize: '1.3rem', color: "#2E266F" }} >at your door steps</Typography>
+                            <Typography sx={{ width: '170px', ml: '50%', mr: '50%', mb: 2, color: '#707070', fontWeight: '600' }}> Lorem ipsum dolor sit amet consectetur elit sit amet</Typography>
+                            <Box sx={{ display: 'flex', flexDirection: 'row' }}>
+                                <Box sx={{ width: '150px', height: '3px', background: '#3D7475', borderRadius: 4, mr: 0.5 }}> </Box>
+                                <Box sx={{ width: '20px', height: '3px', background: '#3D7475', borderRadius: 4 }}></Box>
                             </Box>
                         </Box>
                     </Grid>
